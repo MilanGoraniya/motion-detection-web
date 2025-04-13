@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#startButton:hover {
+    background-color: #45a049;
+}
+
+.camera-container {
+    position: relative;
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+}
+
+#video, #motion {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#motion {
+    z-index: 1;
+}
+
+.status {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+#status.active {
+    color: #4CAF50;
+}
